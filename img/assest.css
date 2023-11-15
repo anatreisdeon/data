@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'STIX Two Text';
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding-right: 100px;
+}
+
+
+
+.banner::before {
+    content: "";
+    background-image: url('../img/cafe1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.brown {
+    background-color: rgb(114, 71, 71);
+}
+
+
+#nav ul li {
+    list-style: none;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul#menu li:hover {
+    background-color: rgb(114, 71, 71);
+}
+
+#nav ul#menu li:active {
+    background-color: rgb(114, 71, 71);
+}
+
+#nav {
+    background-color: rgb(97, 61, 61);
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::before .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+main h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(170, 146, 130);
+}
+
+.lista {
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-right: 1000px;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+.imgm {
+    height: 150px;
+    object-fit: cover;
+    padding-right: 150px;
+    margin-bottom: 5px;
+    transition: all .5s ease;
+}
+
+.imgm:hover {
+    transform: scale(1.2);
+}
+
+.img_ajustes {
+    width: 100px;
+    height: 100px;
+}
+
+main h1 {
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: rgba(116, 101, 101, 0.616);
+}
+
+footer .rodape {
+    float: left;
+}
+
+footer img {
+    padding-right: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+.benvindo {
+    font-size: 15px;
+
+}
+
+.imagem {
+    height: 300px;
+    object-fit: cover;
+
+}
+
+
+
+.banner {
+    background-color: rgba(255, 65, 65, 0.61);
+    height: 345px;
+    width: 1400px;
+}
+
+.banner {
+    position: relative;
+}
+
+main {
+    background-color: rgb(170, 146, 130);
+    margin bottom: 10px;
+}
+
+.bem {
+    background-color: rgba(207, 18, 18, 0.61);
+}
+
+.texto {
+    font-size: 22px;
+
+    padding-top: 80px;
+}
+
+.fotolado {
+    padding-bottom: 10px;
+    padding-top: 80px;
+    transition: all .5s ease;
+
+}
+
+.textimagem {
+    background-color: rgba(248, 79, 79, 0.658)
+}
+
+.text {
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.ultimo {
+    background-color: rgba(207, 18, 18, 0.61);
+}
+
+.commencer{
+    font-size:20px;
+}
